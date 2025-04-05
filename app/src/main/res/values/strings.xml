@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CRUDEmployed</string>
+    <string name="lista_de_empleados">Lista de empleados</string>
+</resources>
