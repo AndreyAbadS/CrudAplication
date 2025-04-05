@@ -96,7 +96,7 @@ class EmployedRepository {
                     val updateCount = responseBody?.data as? Int
 
                     if (updateCount == 1) {
-                        ApiResponseStatusPatch.Success(responseBody.message ?: "Actualización exitosa")
+                        ApiResponseStatusPatch.Success(responseBody.message)
                     } else {
                         ApiResponseStatusPatch.Error("No se actualizó ningún empleado.")
                     }

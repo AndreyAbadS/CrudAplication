@@ -38,7 +38,6 @@ fun NavScreen(navController: NavHostController){
         mutableIntStateOf(2)
     }
 
-    // Observamos el estado de navegación desde el ViewModel
     val currentRoute by viewModel.navigation.collectAsState()
 
     // Observamos y navegamos según el valor de currentRoute
